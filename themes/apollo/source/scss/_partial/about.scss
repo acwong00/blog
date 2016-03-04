@@ -1,0 +1,23 @@
+.contact {
+  margin-top: 4em;
+
+  ul,li {
+    list-style: none;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    margin-right: 1em;
+  }
+  a {
+    color: #2c3e50;
+    font-size: 1.5em;
+    font-weight: normal;
+    transition: .3s color;
+
+    &:hover {
+      color: lighten(#2c3e50, 30%);
+    }
+  }
+}

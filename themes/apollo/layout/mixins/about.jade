@@ -1,0 +1,8 @@
+mixin contact()
+  - var icons = ['mail', 'github', 'weibo', 'douban']
+  .contact
+    h2 Contact me
+      ul      
+        each icon in icons
+          li
+            a(class='iconfont icon-' + icon, href=theme.contact[icon], target='_blank')

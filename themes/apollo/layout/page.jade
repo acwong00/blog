@@ -1,0 +1,18 @@
+extends partial/layout
+
+block site_title
+  if page.type == 'tags'
+    != "标签" + " | " + config.title
+  if page.type == 'about'
+    != "关于" + " | " + config.title
+
+block container
+  if page.type == 'tags'
+    include mixins/tag
+    +tags()
+  if page.type == 'about'
+    include mixins/about
+    +contact()
+
+block copyright
+    include partial/copyright

@@ -1,0 +1,18 @@
+extends partial/layout
+
+block site_title
+    if is_tag()
+      != "归档 · " + page.tag + " | " + config.title
+    else 
+      != "归档" + " | " + config.title
+
+block container
+    include mixins/post
+    +postList()
+
+block pagination
+    include mixins/paginator
+    +home()
+
+block copyright
+    include partial/copyright

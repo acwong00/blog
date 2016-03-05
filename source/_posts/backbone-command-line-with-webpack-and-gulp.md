@@ -5,7 +5,7 @@ categories: 技术实践
 description: 利用 Webpack 和 Gulp 构建 Backbone 伪命令行项目
 ---
 
-[上一篇文章](http://acwong.org/2015/04/13/backbone-command-line/)分享了我的一个 Backbone 小项目的实践过程。在项目上线之前先看看 *index.html*。
+[上一篇文章](http://blog.acwong.org/2015/04/13/backbone-command-line/)分享了我的一个 Backbone 小项目的实践过程。在项目上线之前先看看 *index.html*。
 
 ```html
 <script src="./js/command-model.js"></script>
@@ -184,7 +184,7 @@ gulp.task('default', function(){
 
 ## 最后
 
-完整的 demo 可以看我的博客 [about 页面](http://acwong.org/about/)。
+完整的 demo 可以看我的博客 [~~about 页面~~](http://blog.acwong.org/#)。
 
 源代码请点[这里](https://github.com/acwong00/backbone-command-line)。
 

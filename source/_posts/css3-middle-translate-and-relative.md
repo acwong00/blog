@@ -185,7 +185,7 @@ CSS3 动画相关的属性出现以后，可以让我们更加轻松地制作复
 
 [Why Moving Elements With Translate() Is Better Than Pos:abs Top/left](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/)
 
-本文地址 [http://acwong.org/2014/12/21/css3-middle-translate-and-relative/](http://acwong.org/2014/12/21/css3-middle-translate-and-relative/)
+本文地址 [http://blog.acwong.org/2014/12/21/css3-middle-translate-and-relative/](http://blog.acwong.org/2014/12/21/css3-middle-translate-and-relative/)
 
 
 

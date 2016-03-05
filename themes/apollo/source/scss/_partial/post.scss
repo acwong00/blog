@@ -80,6 +80,20 @@
     }
 }
 
+.post-tag {
+    margin: 1.2em 0;
+    text-align: center;
+    a {
+        margin-left: .5em;
+        margin-right: .5em;
+        padding-bottom: .2em;
+
+        &:hover {
+            border-bottom: 1px solid #42b983;
+        }
+    }
+}
+
 code,
 pre {
     font-size: 0.8em;

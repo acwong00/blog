@@ -152,7 +152,7 @@ margin 负值虽然不是常常被提起，但是在实际当中已经有相当�
 2. [我知道你不知道的负Margin](http://www.hicss.net/i-know-you-do-not-know-the-negative-margin/)
 3. [Bootstrap框架的网格系统工作原理](http://www.imooc.com/code/2325)
 
-本文地址 [http://acwong.org/2014/12/06/negative-margins/](http://acwong.org/2014/12/06/negative-margins/)
+本文地址 [http://blog.acwong.org/2014/12/06/negative-margins/](http://blog.acwong.org/2014/12/06/negative-margins/)
 
 
 

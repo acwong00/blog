@@ -117,5 +117,5 @@ IE浏览器对addEventListener兼容性并不算太好，只有IE9以上可以�
 3. [attachEvent method -- MSDN](http://msdn.microsoft.com/en-us/library/ie/ms536343.aspx)
 4. [What is event bubbling and capturing -- Stack Overflow](https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing?nsukey=zA51Jl1Abrk%2FRkPZVPbCjx4J80CbKY93tVZAAejv4ySodF5MTEOdxPCiy4RFfLE5hPcgmYVt2Y4ma7A5hHfbXg%3D%3D)
 
-本文地址 [http://acwong.org/2014/10/28/bubbling-and-capturing/](http://acwong.org/2014/10/28/bubbling-and-capturing/)
+本文地址 [http://blog.acwong.org/2014/10/28/bubbling-and-capturing/](http://blog.acwong.org/2014/10/28/bubbling-and-capturing/)
 

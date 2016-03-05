@@ -7,7 +7,7 @@ description: Seajs 实践，使用 spm3 对 2048 游戏项目进行构建。
 
 ## 回顾
 
-在[上一篇文章](http://www.acwong.org/2014/11/15/2048-with-seajs/)中，利用 Seajs 对 2048 游戏进行了模块化。现在我们可以看到，在页面中使用`seajs.use("game/main")` 就能够自动加载其余的2个js文件。
+在[上一篇文章](http://blog.acwong.org/2014/11/15/2048-with-seajs/)中，利用 Seajs 对 2048 游戏进行了模块化。现在我们可以看到，在页面中使用`seajs.use("game/main")` 就能够自动加载其余的2个js文件。
 
 [![2048网络请求](http://acwongblog.qiniudn.com/2048s-network.PNG)](http://acwongblog.qiniudn.com/2048s-network.PNG)
 
@@ -138,4 +138,4 @@ seajs-wrap 在 *sea.js* 之后引入。
 3. [为什么 SeaJS 模块的合并这么麻烦](http://chaoskeh.com/blog/why-its-hard-to-combo-seajs-modules.html)
 4. [seajs-wrap 中文文档](https://github.com/seajs/seajs-wrap/issues/1)
 
-本文地址 [http://acwong.org/2014/11/16/2048-with-seajs-and-spm3/](http://acwong.org/2014/11/16/2048-with-seajs-and-spm3/)
+本文地址 [http://blog.acwong.org/2014/11/16/2048-with-seajs-and-spm3/](http://blog.acwong.org/2014/11/16/2048-with-seajs-and-spm3/)

@@ -5,7 +5,7 @@ categories: 技术实践
 description: 利用 Backbone库在前端模仿命令行系统。
 ---
 
-最近学习了一下 Backbone 这个库，对于想学习制作单页应用的朋友来说，Backbone 确实是一个不错的选择。为了让自己更加熟悉 Backbone，最近用它制作了一个伪命令行应用来装修了本人博客的 [about 页面](http://acwong.org/about/)。
+最近学习了一下 Backbone 这个库，对于想学习制作单页应用的朋友来说，Backbone 确实是一个不错的选择。为了让自己更加熟悉 Backbone，最近用它制作了一个伪命令行应用来装修了本人博客的 [about 页面](http://blog.acwong.org/#)。
 
 <!-- more -->
 
@@ -290,12 +290,12 @@ $(function(){
 
 ## 最后
 
-完整的 demo 可以看我的博客 [about 页面](http://acwong.org/about/)。
+完整的 demo 可以看我的博客 [~~about 页面~~](http://blog.acwong.org/about/)。
 
 源代码请点[这里](https://github.com/acwong00/backbone-command-line/tree/master/old_demo)。
 
 我只是一个 Backbone 初学者，有些实现方法可能不够合理，希望看到这篇文章的您多多与我交流。
 
-[下一篇文章](http://acwong.org/2015/04/22/backbone-command-line-with-webpack-and-gulp/)会说一下如何构建这个小项目。
+[下一篇文章](http://blog.acwong.org/2015/04/22/backbone-command-line-with-webpack-and-gulp/)会说一下如何构建这个小项目。
 
 感谢您的阅读，有不足之处请为我指出。

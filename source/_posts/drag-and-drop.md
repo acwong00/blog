@@ -202,4 +202,4 @@ function moveImg(dir) {
 4. [The HTML5 drag and drop disaster](http://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html)
 5. [Why is event.preventDefault() in dragstart interrupting furthur drag events from executing? -- stackoverflow](https://stackoverflow.com/questions/19036977/why-is-event-preventdefault-in-dragstart-interrupting-furthur-drag-events-from?nsukey=nAJoypRJ%2FY1BrOvXfa1fWU2dcz2tJ4S0mv0B4f5G0a%2B6zdcX0XO6q9QGbfadlJ1eeYaogaKSDjRa4xL4wzNLIQ%3D%3D)
 
-本文地址 [http://acwong.org/2014/11/08/drag-and-drop/](http://acwong.org/2014/11/08/drag-and-drop/)
+本文地址 [http://blog.acwong.org/2014/11/08/drag-and-drop/](http://blog.acwong.org/2014/11/08/drag-and-drop/)

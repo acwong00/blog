@@ -45,3 +45,8 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+            .post-tag
+                - page.tags.each(function (tag) {
+                    a(href= url_for(tag.path))
+                        != "#" + tag.name
+                - })

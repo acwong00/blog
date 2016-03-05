@@ -165,7 +165,7 @@ seajs.use(["game/main"]);
 
 在 EMCAScript6 `import` 功能出现之前，Seajs 的确是一个不错的前端模块化工具。
 
-[下一篇文章](http://www.acwong.org/2014/11/16/2048-with-seajs-and-spm3/)，我会谈一下如何用 spm3 进行Seajs标准构建。
+[下一篇文章](http://blog.acwong.org/2014/11/16/2048-with-seajs-and-spm3/)，我会谈一下如何用 spm3 进行Seajs标准构建。
 
 感谢您的阅读，有不足之处请为我指出。
 
@@ -176,4 +176,4 @@ seajs.use(["game/main"]);
 2. [CommonJS 的 Modules/Transport 和 Modules/Wrappings 规范有什么区别？ -- 知乎](http://www.zhihu.com/question/20789867/answer/16187950)
 3. [前端模块化开发的价值](https://github.com/seajs/seajs/issues/547)
 
-本文地址 [http://www.acwong.org/2014/11/15/2048-with-seajs/](http://www.acwong.org/2014/11/15/2048-with-seajs/)
+本文地址 [http://blog.acwong.org/2014/11/15/2048-with-seajs/](http://blog.acwong.org/2014/11/15/2048-with-seajs/)

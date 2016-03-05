@@ -55,7 +55,7 @@ document.body.addEventListener("click", function (event) {
 
 ```html
 <body>
-    <a id="myLink" href="http://www.acwong.org">acwong blog</a>
+    <a id="myLink" href="http://blog.acwong.org">acwong blog</a>
 </body>
 ```
 
@@ -146,4 +146,4 @@ btn.addEventListener("click", function(event) {
 
 [JavaScript高级程序设计(第3版)](http://book.douban.com/subject/10546125/)
 
-本文地址 [http://www.acwong.org/2014/12/30/standard-event-object-and-IE-event-object/](http://www.acwong.org/2014/12/30/standard-event-object-and-IE-event-object/)
+本文地址 [http://blog.acwong.org/2014/12/30/standard-event-object-and-IE-event-object/](http://blog.acwong.org/2014/12/30/standard-event-object-and-IE-event-object/)

@@ -17,9 +17,9 @@ duoshuo:
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: UA-51278674-1
 # baidu-analytics:
-ba: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
+ba: //hm.baidu.com/hm.js?671aac020a5151c07d7f2143a0f38ab4
 
 # Copyright Infomation
 startyear: 2014
@@ -30,7 +30,7 @@ startyear: 2014
 googlefonts: true
 
 contact:
-  mail: mailto:acwong00@gmail.com
+  mail: mailto:me@acwong.org
   github: https://github.com/acwong00
   weibo: http://weibo.com/achuang
   douban: http://www.douban.com/people/acwong00/

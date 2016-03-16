@@ -2,7 +2,7 @@ title: Backbone实践 —— 伪命令行制作
 date: 2015-04-13 17:10:56
 tags: [Backbone]
 categories: 技术实践
-description: 利用 Backbone库在前端模仿命令行系统。
+description: 利用 Backbone 库在前端模仿命令行系统。
 ---
 
 最近学习了一下 Backbone 这个库，对于想学习制作单页应用的朋友来说，Backbone 确实是一个不错的选择。为了让自己更加熟悉 Backbone，最近用它制作了一个伪命令行应用来装修了本人博客的 [about 页面](http://blog.acwong.org/#)。

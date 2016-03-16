@@ -2,6 +2,7 @@ title: Chrome 浏览器文件关联调试方法
 date: 2015-05-26 14:12:27
 tags: [Chrome,调试]
 categories: 学习笔记
+description: Chrome 浏览器使用技巧，文件关联调试
 ---
 
 Chrome 浏览器和 FireFox 浏览器一直是前端工程师热爱的两款浏览器。除了因为它们对新的开发标准支持程度高以外，最大的原因莫过于它们都支持强大的调试功能。

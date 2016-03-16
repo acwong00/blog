@@ -2,7 +2,7 @@ title: 利用 CSS animation 和 CSS sprite 制作动画
 date: 2015-03-23 21:40:32
 tags: [CSS,CSS3,CSS3动画,雪碧图]
 categories: 技术研究
-description: CSS animation 和雪碧图制作动画
+description: 使用 CSS animation 和雪碧图制作动画
 ---
 
 CSS3 大大强化了制作动画的能力，但是如果要做出图案比较复杂的动画，选择 GIF 依然是一个不错的选择。今天给大家介绍一个使用 CSS animation 配合雪碧图(CSS sprite)来制作动画的方法，可以做出类似于 GIF 动画的效果。

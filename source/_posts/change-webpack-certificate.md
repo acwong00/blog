@@ -3,6 +3,7 @@ title: 记一次移动端开发环境调试
 date: 2016-03-05 21:39:29
 categories: 学习笔记
 tags: [开发环境,webpack,https,openssl,移动前端]
+description: 手机淘宝 https 环境调试经历，使用 openssl 生成证书替换 webpack 开发服务器无效证书
 ---
 
 最近的一个项目要在手机淘宝客户端里面开发网页，由于淘宝目前全站https，所以在开发环境搭建时候遇到了之前没有料想到的一些问题，这里分享一下这次踩坑的经历。

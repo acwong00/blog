@@ -2,7 +2,7 @@ title: "实用的margin负值"
 date: 2014-12-06 11:33:58
 tags: [CSS,布局,盒模型]
 categories: 技术研究
-description: 介绍margin负值以及margin负值在实际当中的应用。
+description: 介绍 margin 负值以及 margin 负值在实际当中的应用。
 ---
 
 无论是在介绍前端知识的书籍还是谈论盒模型的文章，margin 都是最重要的属性之一，然而它的负值用法却极少被提到。其实 margin 负值是一个相当实用的属性，可以被应用于日常前端开发当中的不少场景。

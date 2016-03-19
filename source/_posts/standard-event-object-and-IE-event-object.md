@@ -146,4 +146,3 @@ btn.addEventListener("click", function(event) {
 
 [JavaScript高级程序设计(第3版)](http://book.douban.com/subject/10546125/)
 
-本文地址 [http://blog.acwong.org/2014/12/30/standard-event-object-and-IE-event-object/](http://blog.acwong.org/2014/12/30/standard-event-object-and-IE-event-object/)

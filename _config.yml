@@ -80,3 +80,6 @@ deploy:
   type: git
   repo: git@github.com:acwong00/acwong00.github.io.git
   
+addlink:
+  before_text: 本文地址
+  domain: blog.acwong.org

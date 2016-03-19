@@ -175,5 +175,3 @@ seajs.use(["game/main"]);
 1. [CMD 模块定义规范](https://github.com/seajs/seajs/issues/242)
 2. [CommonJS 的 Modules/Transport 和 Modules/Wrappings 规范有什么区别？ -- 知乎](http://www.zhihu.com/question/20789867/answer/16187950)
 3. [前端模块化开发的价值](https://github.com/seajs/seajs/issues/547)
-
-本文地址 [http://blog.acwong.org/2014/11/15/2048-with-seajs/](http://blog.acwong.org/2014/11/15/2048-with-seajs/)

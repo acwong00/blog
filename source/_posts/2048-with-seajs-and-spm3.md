@@ -137,5 +137,3 @@ seajs-wrap 在 *sea.js* 之后引入。
 2. [为什么要有约定和构建工具](https://github.com/seajs/seajs/issues/426)
 3. [为什么 SeaJS 模块的合并这么麻烦](http://chaoskeh.com/blog/why-its-hard-to-combo-seajs-modules.html)
 4. [seajs-wrap 中文文档](https://github.com/seajs/seajs-wrap/issues/1)
-
-本文地址 [http://blog.acwong.org/2014/11/16/2048-with-seajs-and-spm3/](http://blog.acwong.org/2014/11/16/2048-with-seajs-and-spm3/)

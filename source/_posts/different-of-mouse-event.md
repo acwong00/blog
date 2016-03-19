@@ -143,5 +143,3 @@ div.addEventListener("DOMMouseScroll", function (event) {
 **参考**
 
 [JavaScript高级程序设计(第3版)](http://book.douban.com/subject/10546125/)
-
-本文地址 [http://blog.acwong.org/2015/01/19/different-of-mouse-event/](http://blog.acwong.org/2015/01/19/different-of-mouse-event/)

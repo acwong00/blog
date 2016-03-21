@@ -7,6 +7,17 @@ title
 block description
     meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
 
+//- Canonical links
+if is_home() || is_archive()
+  link(rel="canonical", href=config.url + url_for(page.path))
+  link(rel="alternative", href=config.url + url_for(page.path), hreflang="zh-cn")
+else
+  link(rel="canonical", href=url_for(page.permalink))
+  link(rel="alternative", href=url_for(page.permalink), hreflang="zh-cn")
+
+//- rss
+link(rel="alternate", href="/atom.xml" title="acwong")
+
 meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="short icon", href=url_for(theme.favicon))
 link(rel="stylesheet", href=url_for("css/apollo.css"))

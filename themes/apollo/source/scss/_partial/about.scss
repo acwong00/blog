@@ -12,12 +12,19 @@
   }
   a {
     color: #2c3e50;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: normal;
     transition: .3s color;
 
     &:hover {
       color: lighten(#2c3e50, 30%);
     }
+  }
+}
+
+.donate {
+  img {
+    width: 200px;
+    height: 200px;
   }
 }

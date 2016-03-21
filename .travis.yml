@@ -3,7 +3,7 @@ language: node_js
 sudo: false
 
 node_js:
-  - "4"
+  - 'stable'
 
 branches:
   only:
@@ -19,7 +19,7 @@ before_install:
 - git config --global user.email acwong00@gmail.com
 
 install:
-- npm install hexo-cil -g
+- npm install hexo-cli -g
 - npm install
 
 script:

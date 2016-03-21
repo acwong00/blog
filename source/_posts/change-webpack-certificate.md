@@ -127,7 +127,7 @@ openssl req -new -out server.req -key server.key
 利用CA证书签发服务端使用的证书：
 
 ```bash
-openssl x509 -req server.req -out server.crt -CAkey CA.key -CA CA.crt -days 365 -CAcreateserial -CAserial serial
+openssl x509 -req -in server.req -out server.crt -CAkey CA.key -CA CA.crt -days 365 -CAcreateserial -CAserial serial
 ```
 
 最后把生成的证书替换 ssl 文件夹里面的内容，大功告成，webpack-dev-server 上的资源可以成功访问了。

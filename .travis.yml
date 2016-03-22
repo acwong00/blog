@@ -9,6 +9,10 @@ branches:
   only:
   - master
 
+cache:
+  directories:
+    - node_modules
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_15db670b9b95_key -iv $encrypted_15db670b9b95_iv -in .travis/id_rsa_travis.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa

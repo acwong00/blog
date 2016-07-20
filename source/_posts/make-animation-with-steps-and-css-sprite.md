@@ -21,7 +21,7 @@ animation 本身是一个复合的属性，它包含了 *animation-name*，*anim
 
 *animation-timing-function* 平时我们用的比较多的是默认的一些动画曲线值 `ease`、`ease-in` 等等。而 `steps` 则可以由我们控制动画被分成多少个部分进行。
 
-`steps(n,[start|end])` 传入一到两嘅个参数，第一个参数意思是把动画分成 n 等分，然后动画就会平均地运行。第二个参赛默认值是 start 表示从动画的开头开始运行，相反，end 就表示从动画的结尾开始运行。
+`steps(n,[start|end])` 传入一到两个参数，第一个参数意思是把动画分成 n 等分，然后动画就会平均地运行。第二个参数 start 表示从动画的开头开始运行，相反，end 就表示从动画的结尾开始运行，默认值为 end。
 
 因此，我们利用雪碧图和 `steps` 函数制作动画的原理就是，雪碧图包含了动画图片的每一帧，然后利用 `steps` 函数确定固定时间内动画运行的部分等于动画的帧数，从而实现动画效果。
 
@@ -67,6 +67,7 @@ animation 本身是一个复合的属性，它包含了 *animation-name*，*anim
 ```
 
 调用动画
+
 ```css
 #tuski {
     -webkit-animation: tuski .5s steps(12) infinite;

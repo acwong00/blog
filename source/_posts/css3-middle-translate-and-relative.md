@@ -1,3 +1,4 @@
+---
 title: "从一个居中方法说起 —— 谈 translate 与 相对、绝对定位"
 date: 2014-12-21 15:59:47
 tags: [CSS,CSS3,定位,CSS3动画]

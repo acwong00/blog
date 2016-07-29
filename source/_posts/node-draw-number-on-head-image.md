@@ -1,3 +1,4 @@
+---
 title: Node.js 练习 —— 逼死强迫症头像
 date: 2015-01-29 11:35:27
 tags: [图像处理,Node.js]

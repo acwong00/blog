@@ -1,3 +1,4 @@
+---
 title: Node.js 练习 —— 操作 MySQL 和 Redis
 date: 2015-03-03 15:28:04
 tags: [MySQL,Redis,关系型数据库,NoSQL数据库,Node.js]

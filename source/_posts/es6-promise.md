@@ -1,3 +1,4 @@
+---
 title: 谈谈 ES6 的 Promise 对象
 date: 2015-06-22 17:43:07
 tags: [JavaScript,ECMAScript6,Promise,异步编程]

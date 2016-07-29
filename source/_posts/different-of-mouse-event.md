@@ -1,3 +1,4 @@
+---
 title: JavaScript 笔记 —— 鼠标事件的浏览器差异
 date: 2015-01-19 14:17:40
 tags: [JavaScript,事件,兼容性]

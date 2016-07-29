@@ -1,3 +1,4 @@
+---
 title: JavaScript 笔记 —— 标准事件对象与 IE 事件对象
 date: 2014-12-30 21:26:22
 tags: [JavaScript,事件,事件对象,兼容性]

@@ -1,3 +1,4 @@
+---
 title: Seajs 实践(二)—— 使用 spm3 构建项目
 date: 2014-11-16 00:06:02
 tags: [前端模块化,seajs,spm]

@@ -12,8 +12,8 @@ logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
-disqus: acwong
-duoshuo: 
+# disqus: acwong
+duoshuo: acwong
 
 # Analytics
 # google-analytics:

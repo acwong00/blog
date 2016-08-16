@@ -1,9 +1,9 @@
 ---
-title: JavaScript 设计模式笔记(一)——单例模式
+title: JavaScript 设计模式笔记（一）—— 单例模式
 date: 2016-07-23 09:42:44
 tags: [JavaScript,设计模式]
 categories: 学习笔记
-description: JavaScript 设计模式笔记——单例模式
+description: JavaScript 设计模式笔记 —— 单例模式
 ---
 
 单例模式（Singleton）是一种常用的设计模式，它被定义为：

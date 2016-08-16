@@ -1,9 +1,9 @@
 ---
-title: JavaScript 设计模式笔记(二)——策略模式
+title: JavaScript 设计模式笔记（二）—— 策略模式
 date: 2016-08-02 10:01:50
 tags: [JavaScript,设计模式]
 categories: 学习笔记
-description: JavaScript 设计模式笔记——策略模式
+description: JavaScript 设计模式笔记 —— 策略模式
 ---
 
 ## 定义

@@ -176,3 +176,8 @@ startServing([
 享元模式的优点在于可以大量减少内存里面的对象数量，通过分离外部状态使 flyweight 对象可以被共享。
 
 享元模式的缺点是分离外部与内部状态使程序复杂性增加，另外因为用时间换取空间，会导致程序运行时间变长。
+
+**参考**
+
+1. [JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
+2. [深入理解JavaScript系列（37）：设计模式之享元模式](http://www.cnblogs.com/TomXu/archive/2012/04/09/2379774.html)

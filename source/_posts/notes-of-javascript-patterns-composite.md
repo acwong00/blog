@@ -76,3 +76,7 @@ File.prototype.scan = function() {
 - 可以忽略操作的对象是叶对象还是组合对象，组合对象和叶对象都会各自完成操作
 
 组合模式缺点在于使用会导致代码理解困难同时有可能会导致性能问题。
+
+**参考**
+
+[JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)

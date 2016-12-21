@@ -130,7 +130,7 @@ console.log(proxyMult(1, 2, 3)); // 6
 
 **参考**
 
-1. [JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
+[JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
 
 
 

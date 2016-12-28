@@ -12,9 +12,13 @@ mixin posts()
                         a.post-title-link(href= url_for(item.path))
                             != item.title
                     +postInfo(item)
-                    .post-content
-                        != item.excerpt
-                    a.read-more(href= url_for(item.path))!= __('more')
+                    if item.excerpt
+                        .post-content
+                            != item.excerpt
+                        a.read-more(href= url_for(item.path))!= __('more')
+                    else
+                        .post-content
+                            != item.content
         - })
 
 //- Archive Page

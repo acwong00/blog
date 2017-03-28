@@ -293,7 +293,7 @@ $(function(){
 
 完整的 demo 可以看我的博客 [~~about 页面~~](http://blog.acwong.org/about/)。
 
-源代码请点[这里](https://github.com/acwong00/backbone-command-line/tree/master/old_demo)。
+源代码请点[这里](https://github.com/acwong00/blog-demo-code/tree/master/backbone-command-line/old_demo)。
 
 我只是一个 Backbone 初学者，有些实现方法可能不够合理，希望看到这篇文章的您多多与我交流。
 

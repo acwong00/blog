@@ -187,7 +187,7 @@ gulp.task('default', function(){
 
 完整的 demo 可以看我的博客 [~~about 页面~~](http://blog.acwong.org/#)。
 
-源代码请点[这里](https://github.com/acwong00/backbone-command-line)。
+源代码请点[这里](https://github.com/acwong00/blog-demo-code/tree/master/backbone-command-line)。
 
 感谢您的阅读，有不足之处请为我指出。
 

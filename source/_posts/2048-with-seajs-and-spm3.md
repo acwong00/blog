@@ -109,7 +109,7 @@ seajs.use("2048/1.0.0/static/game/main");
 
 [![2048构建后网络请求](http://acwongblog.qiniudn.com/2048ss-network.PNG)](http://acwongblog.qiniudn.com/2048ss-network.PNG)
 
-[这里](https://github.com/acwong00/games-demo/tree/master/seajs-2048/2048-with-seajs-and-spm3)可以查看最终的代码。
+[这里](https://github.com/acwong00/blog-demo-code/tree/master/seajs-2048/2048-with-seajs-and-spm3)可以查看最终的代码。
 
 ## 最后
 

@@ -1,8 +1,8 @@
 ---
 title: ES6/ES7 三点式 —— 扩展运算符与剩余操作符
 date: 2017-09-23 16:56:42
-tags:[JavaScript,ECMAScript6,ECMAScript7]
-categories: 技术研究
+tags: [JavaScript,ECMAScript6,ECMAScript7]
+categories: 学习笔记
 description: 介绍 ES6(EMCAScript 2015) 的扩展语句语法及应用
 ---
 

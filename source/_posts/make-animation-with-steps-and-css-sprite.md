@@ -8,8 +8,6 @@ description: 使用 CSS animation 和雪碧图制作动画
 
 CSS3 大大强化了制作动画的能力，但是如果要做出图案比较复杂的动画，选择 GIF 依然是一个不错的选择。今天给大家介绍一个使用 CSS animation 配合雪碧图(CSS sprite)来制作动画的方法，可以做出类似于 GIF 动画的效果。
 
-<!-- more -->
-
 ## CSS3 Animation steps函数
 
 首先看看，CSS3 animation的[兼容性](http://caniuse.com/#feat=css-animation)。可以看到基本上主流浏览器都支持了 animation 属性，chrome、safari、opera和移动端的浏览器带上前缀就可以支持。

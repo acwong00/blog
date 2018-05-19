@@ -12,8 +12,6 @@ description: Seajs 实践，使用 spm3 对 2048 游戏项目进行构建。
 
 [![2048网络请求](http://acwongblog.qiniudn.com/2048s-network.PNG)](http://acwongblog.qiniudn.com/2048s-network.PNG)
 
-<!-- more -->
-
 ## 构建的意义
 
 但是在实际的开发当中，通常会利用工具把多个 js 文件进行合并和压缩，减少服务器的请求次数，降低服务器的压力。

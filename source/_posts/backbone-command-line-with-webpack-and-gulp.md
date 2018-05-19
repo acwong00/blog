@@ -21,8 +21,6 @@ description: 利用 Webpack 和 Gulp 构建 Backbone 伪命令行项目
 
 本文就通过 Webpack 和 Gulp 两个工具介绍将这个 Backbone 伪命令行项目模块化和构建上线的实践过程。
 
-<!-- more -->
-
 ## Webpack
 
 Webpack 是德国开发者 Tobias Koppers 开发的模块加载器，是前端模块化开发的有力竞争者。

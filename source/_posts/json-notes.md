@@ -8,8 +8,6 @@ description: 有关 JSON 知识的总结。
 
 JSON 全称为 JavaScript Object Notation(JavaScript对象表示法)，它利用与 JavaScript 对象相似的表示方法来表示数据。虽然 JSON 脱胎于 JavaScript，但是 JSON 并不属于 JavaScript 的一部分，很多的语言都可以解析和序列化 JSON。
 
-<!-- more -->
-
 ## JSON 语法
 
 JSON 可以表示以下三种类型的值：

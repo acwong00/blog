@@ -18,8 +18,6 @@ categories: 技术研究
 }
 ```
 
-<!-- more -->
-
 来看看 `user-select` 的在桌面端的兼容性：
 
 ![](http://acwongblog.qiniudn.com/2016-08_user-select-compatibility.png)

@@ -8,8 +8,6 @@ description: Node.js 小练习，使用 Node.js 在图像上添加模拟提示�
 
 最近在 GitHub 上看到了一个名为 [Python 练习册](https://github.com/Show-Me-the-Code/show-me-the-code)的项目。这个项目让大家用 Python 来完成一些简单的小练习，题目也同样适用于其他的语言，这里就 Node.js 来写完成一些小练习。
 
-<!-- more -->
-
 ## 题目0000
 
 > 将你的 QQ 头像（或者微博头像）右上角加上红色的数字，类似于微信未读信息数量那种提示效果。 类似于图中效果

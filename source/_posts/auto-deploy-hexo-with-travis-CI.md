@@ -16,8 +16,6 @@ hexo 是当下一个比较流行的静态网站生成器，一般用户的使用
 
 之前也有不少文章用不同的方法解决上述的问题，例如[利用 Dropbox 同步](http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/)或者[利用 Github 的 Webhooks](http://blog.sunnyyan.com/2015/05/01/hexo-auto-generate/) 进行自动部署。这些方法需要付出一定的成本，因为都需要利用到一台 VPS 去完成。而今有一个更加简单而且免费的方法去完成 hexo 的自动部署，就是利用 Travis CI。
 
-<!-- more -->
-
 ## Travis CI 
 
 顾名思义，Travis CI 是一个持续集成(Continuous integration，简称CI)的工具。它可以在公共的 Github 仓库上免费使用。

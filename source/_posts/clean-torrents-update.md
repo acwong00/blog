@@ -8,8 +8,6 @@ description: 清洗种子脚本更新。
 
 [之前的文章](http://blog.acwong.org/2015/03/25/clean-your-torrent-with-node/)当中探讨了使用 Node.js 和 parse-torrent 库来清洗 BT 种子文件。发布了源码之后有些朋友给了我一些反馈意见，有些种子在清洗之后会导致种子失效。
 
-<!-- more -->
-
 ## 种子失效的问题
 
 在研究一番之后发现原来的脚本有两个问题。

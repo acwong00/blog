@@ -14,8 +14,6 @@ description: JavaScript 设计模式笔记 —— 组合模式
 
 在上一篇文章[（JavaScript 设计模式笔记（六）—— 命令模式）](http://blog.acwong.org/2016/11/30/notes-of-javascript-patterns-command/#宏命令)当中有提到命令模式可以将多个命令组合在一起组成一个宏命令，这就是一个简单的组合模式。
 
-<!-- more -->
-
 宏命令对象与子命令对象之间形成树状结构，宏命令和子命令对象有相同的调用方法 `execute`。但宏命令的 `execute` 方法并不直接执行操作，而是遍历子命令对象执行真正的操作。
 
 ## 组合模式的组成

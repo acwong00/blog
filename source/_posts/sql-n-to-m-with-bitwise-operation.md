@@ -1,7 +1,7 @@
 ---
 title: 使用位运算处理关系型数据库多对多关系
 date: 2018-05-19 17:53:23
-tags: [SQL, 位运算, 数据库设计, 关系型数据库],
+tags: [SQL,位运算,数据库设计,关系型数据库]
 categories: 学习笔记
 ---
 
@@ -82,6 +82,11 @@ id | student_name | subjects
 SELECT * FROM subject WHERE subject_bit & 
 (SELECT subjects FROM student WHERE student_name = 'Cody') != 0
 ```
+
+id | subject_name | subject_bit
+---- | ---- | ----
+1 | 语文 | 1
+2 | 数学 | 2
 
 ## 后记
 

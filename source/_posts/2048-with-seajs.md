@@ -39,7 +39,7 @@ description: Seajs 实践，使用 Seajs 对 2048 游戏进行模块化。
 
 ### 目录结构
 
-[![2048文件目录结构](http://acwongblog.qiniudn.com/2048-folder-structure.PNG)](http://acwongblog.qiniudn.com/2048-folder-structure.PNG)
+[![2048文件目录结构](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048-folder-structure.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048-folder-structure.PNG)
 
 源文件可以在[这里](https://github.com/acwong00/blog-demo-code/tree/master/seajs-2048/2048)找到，有兴趣的朋友可以下载下来尝试一下。
 
@@ -154,7 +154,7 @@ seajs.use(["game/main"]);
 
 经过上述过程之后 2048 游戏已经完成了模块化，现在打开浏览器运行一下,就可以正确运行了。
 
-[![2048运行效果](http://acwongblog.qiniudn.com/2048s-start.PNG)](http://acwongblog.qiniudn.com/2048s-start.PNG)
+[![2048运行效果](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048s-start.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048s-start.PNG)
 
 [这里](https://github.com/acwong00/blog-demo-code/tree/master/seajs-2048/2048-with-seajs)是完成后的代码。
 

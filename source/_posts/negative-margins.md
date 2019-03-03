@@ -22,22 +22,22 @@ description: 介绍 margin 负值以及 margin 负值在实际当中的应用。
 
 结果我们可以看到，使用`margin-top: -50px` 和 `margin-left: -50px` 的例子，蓝色正方形分别向上方和左方移动了50个像素。
 
-[![negative margin-top](http://acwongblog.qiniudn.com/2014-12_negative-margin-top.PNG)](http://acwongblog.qiniudn.com/2014-12_negative-margin-top.PNG)
+[![negative margin-top](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-top.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-top.PNG)
 
-[![negative margin-left](http://acwongblog.qiniudn.com/2014-12_negative-margin-left.PNG)](http://acwongblog.qiniudn.com/2014-12_negative-margin-left.PNG)
+[![negative margin-left](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-left.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-left.PNG)
 
 而使用 `margin-bottom: -50px` 和 `margin-right: -50px` 的例子，位于下方和右方的黄色正方形向蓝色正方形方向移动了50个像素，覆盖了蓝色正方形的一部分。
 
 
-[![negative margin-bottom](http://acwongblog.qiniudn.com/2014-12_negative-margin-bottom.PNG)](http://acwongblog.qiniudn.com/2014-12_negative-margin-bottom.PNG)
+[![negative margin-bottom](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-bottom.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-bottom.PNG)
 
-[![negative margin-right](http://acwongblog.qiniudn.com/2014-12_negative-margin-right.PNG)](http://acwongblog.qiniudn.com/2014-12_negative-margin-right.PNG)
+[![negative margin-right](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-right.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_negative-margin-right.PNG)
 
 ## 原理浅析
 
 产生上述两种情况的差异是由于 margin 在上、左方和下、右方解析逻辑有所不同。这里引用怿飞博客**[《由浅入深漫谈margin属性》](http://www.planabc.net/2007/03/18/css_attribute_margin/)** 中参考线的概念。
 
-[![margin-move](http://acwongblog.qiniudn.com/2014-12_margin-move.png)](http://acwongblog.qiniudn.com/2014-12_margin-move.png)
+[![margin-move](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_margin-move.png)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_margin-move.png)
 
 简单来说就是上、左方和下、右方参考线的不同导致的。
 
@@ -61,7 +61,7 @@ margin 负值虽然不是常常被提起，但是在实际当中已经有相当�
 
 [http://t.dianping.com/citylist](http://t.dianping.com/citylist)
 
-[![dianping-list](http://acwongblog.qiniudn.com/2014-12_dianpin-list.PNG)](http://acwongblog.qiniudn.com/2014-12_dianpin-list.PNG)
+[![dianping-list](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_dianpin-list.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_dianpin-list.PNG)
 
 上图每一个城市之间都有一条浅灰色竖线作为分割符，查看源码我们可以发现它其实是每个`li`元素的左边界，然而通常使用`border`来完成类似需求时我们不希望第一个（或最后一个）`li` 元素出现`border`，因此我们通常会在第一个（或最后一个）`li` 元素添加 *frist-item*(或 *last-item*) 的 class 使他们不显示，而这里的城市列表用了一个更加简单的方法：每一个`li` 元素添加一个像素左方向的 `margin` 负值。
 
@@ -80,7 +80,7 @@ margin 负值虽然不是常常被提起，但是在实际当中已经有相当�
 
 [http://segmentfault.com/](http://segmentfault.com/)
 
-[![segmentfault-tab](http://acwongblog.qiniudn.com/2014-12_segmentfault-tab.PNG)](http://acwongblog.qiniudn.com/2014-12_segmentfault-tab.PNG)
+[![segmentfault-tab](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_segmentfault-tab.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_segmentfault-tab.PNG)
 
 完成类似的tab效果，我们需要分别给各个 tab 元素和其父元素添加 `border`，这个时候会出现双边框的情况。segmentfault 的解决方法是给每一个tab元素添加一像素下方的 `margin` 负值。
 
@@ -106,7 +106,7 @@ margin 负值虽然不是常常被提起，但是在实际当中已经有相当�
 
 在 Bootstrap 的网格系统当中，每一个使用 `col-**-*` 类的列元素都应该包裹在 `row` 类的元素当中。为了使页面美观每个 `col-**-*` 的类都设置了左、右15个像素的补白 `padding`，这样会导致一个结果，第一个和最后一个元素会离开容器15个像素的距离。为此，Bootstrap在 `row` 类当中分别定义了左、右方向15个像素的 `margin` 负值来抵消第一列和最后一列产生的左右补白。
 
-[![bootstrap-grid-system](http://acwongblog.qiniudn.com/2014-12_bootstrap-grid-system.jpg)](http://acwongblog.qiniudn.com/2014-12_bootstrap-grid-system.jpg)
+[![bootstrap-grid-system](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_bootstrap-grid-system.jpg)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_bootstrap-grid-system.jpg)
 
 ```css
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 

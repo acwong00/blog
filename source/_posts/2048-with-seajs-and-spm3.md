@@ -10,7 +10,7 @@ description: Seajs 实践，使用 spm3 对 2048 游戏项目进行构建。
 
 在[上一篇文章](http://blog.acwong.org/2014/11/15/2048-with-seajs/)中，利用 Seajs 对 2048 游戏进行了模块化。现在我们可以看到，在页面中使用`seajs.use("game/main")` 就能够自动加载其余的2个js文件。
 
-[![2048网络请求](http://acwongblog.qiniudn.com/2048s-network.PNG)](http://acwongblog.qiniudn.com/2048s-network.PNG)
+[![2048网络请求](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048s-network.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048s-network.PNG)
 
 ## 构建的意义
 
@@ -105,7 +105,7 @@ seajs.use("2048/1.0.0/static/game/main");
 
 打开游戏，可以发现原来的3个 js 文件，现在只剩下 *main.js* 一个了。
 
-[![2048构建后网络请求](http://acwongblog.qiniudn.com/2048ss-network.PNG)](http://acwongblog.qiniudn.com/2048ss-network.PNG)
+[![2048构建后网络请求](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048ss-network.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2048ss-network.PNG)
 
 [这里](https://github.com/acwong00/blog-demo-code/tree/master/seajs-2048/2048-with-seajs-and-spm3)可以查看最终的代码。
 

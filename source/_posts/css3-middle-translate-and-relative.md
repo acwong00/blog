@@ -59,7 +59,7 @@ description: 通过一个居中的例子引入，谈谈 translate 和 相对、�
 
 [未加上 `transform` 属性的例子](http://jsfiddle.net/acwong/kjcvss1a/1)。
 
-[![](http://acwongblog.qiniudn.com/2014-12_middle-position.PNG)](http://acwongblog.qiniudn.com/2014-12_middle-position.PNG)
+[![](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_middle-position.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2014-12_middle-position.PNG)
 
 可以看到红色方块左、上方距离外层方块的距离都是250个像素，如果我们想实现垂直水平居中，就应该将红色方块的中心点移动到目前元素左上角的位置，也就是分别向上和向左移动一半方块边长的长度，50个像素。
 

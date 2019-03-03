@@ -53,7 +53,7 @@ description: 介绍一些常见的图片 hover 效果以及它们的实现方式
 ```html
 <!-- 加上遮罩层 -->
 <div class="pic">
-    <img src="http://acwongblog.qiniudn.com/2015-03_example-picture.jpg" id="pic1">
+    <img src="https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_example-picture.jpg" id="pic1">
     <div class="mask" id="mask1"></div>
 </div>
 ```
@@ -222,7 +222,7 @@ img {
 
 ```html
 <div class="pic">
-    <img src="http://acwongblog.qiniudn.com/2015-03_example-picture.jpg" id="img4">
+    <img src="https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_example-picture.jpg" id="img4">
     <div class="info">Hello</div>
 </div>
 ```

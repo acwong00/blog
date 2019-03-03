@@ -28,11 +28,11 @@ animation 本身是一个复合的属性，它包含了 *animation-name*，*anim
 
 用猥琐的兔斯基做例子╮(￣▽￣")╭
 
-![兔斯基gif](http://acwongblog.qiniudn.com/2015-03_tuski-gif.gif)
+![兔斯基gif](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_tuski-gif.gif)
 
 首先我们要切图，把动画的每一帧切成这样的图:
 
-![兔斯基雪碧图](http://acwongblog.qiniudn.com/2015-03_tuski-sprite.png)
+![兔斯基雪碧图](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_tuski-sprite.png)
 
 切图如果大家不想折腾，推荐[在线合并雪碧图的工具](http://alloyteam.github.io/gopng/)。
 

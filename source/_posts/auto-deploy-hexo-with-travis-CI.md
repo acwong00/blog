@@ -32,7 +32,7 @@ hexo 是当下一个比较流行的静态网站生成器，一般用户的使用
 
 然后可以看到当前账号的所有代码仓库，接下来将博客项目的状态设置为启用。
 
-![trun on travis](http://7q5etm.com1.z0.glb.clouddn.com/2016-03_travis-on.png)
+![trun on travis](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-03_travis-on.png)
 
 ### 创建 SSH key
 
@@ -44,7 +44,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 得到 `id_rsa.pub` 和 `id_rsa`，然后将有 `pub` 后缀的配置到 `gh-page` 的 Deploy key。
 
-![set deploy key](http://7q5etm.com1.z0.glb.clouddn.com/2016-03_deploy-key.png)
+![set deploy key](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-03_deploy-key.png)
 
 记得要将 `Allow write access` 的选项选上，这样 Travis CI 才能获得 push 代码的权限。
 
@@ -90,15 +90,15 @@ Host github.com
 
 现在进入 travis CI 设置页面
 
-![travis setting](http://7q5etm.com1.z0.glb.clouddn.com/2016-03_travis-setting.png)
+![travis setting](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-03_travis-setting.png)
 
 可以看到刚刚 travis 命令行生成的解密 key
 
-![environment variables](http://7q5etm.com1.z0.glb.clouddn.com/2016-03_environment-variables.png)
+![environment variables](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-03_environment-variables.png)
 
 顺便把上面的开关打开
 
-![trun on travis setting](http://7q5etm.com1.z0.glb.clouddn.com/2016-03_trun-on-travis-setting.png)
+![trun on travis setting](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-03_trun-on-travis-setting.png)
 
 这样，当向项目 push 代码的时候 travis CI 就会根据 `.travis.yml` 的内容去部署我们的项目了。
 

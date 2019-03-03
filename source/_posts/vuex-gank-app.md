@@ -18,7 +18,7 @@ description: vuex 入门 —— 干货集中营应用
 
 ## 应用预览
 
-![预览](http://acwongblog.qiniudn.com/2017-03_gank-vivew.png)
+![预览](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2017-03_gank-vivew.png)
 
 这个应用包括两个部分，如上图，左方列表是通过[干货集中营](http://gank.io/api)的 api 获取的文章列表。
 

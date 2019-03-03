@@ -275,7 +275,7 @@ var person = JSON.parse(jsonText);
 console.log(person);
 ```
 
-![parse-json](http://acwongblog.qiniudn.com/2015-03_parse-json.PNG)
+![parse-json](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_parse-json.PNG)
 
 `JSON.parse()` 同样可以传入一个函数作为参数，对键值对进行操作。
 
@@ -287,7 +287,7 @@ var person = JSON.parse(jsonText);
 console.log(person);
 ```
 
-![parse-json-with-fun](http://acwongblog.qiniudn.com/2015-03_parse-json-with-fun.PNG)
+![parse-json-with-fun](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_parse-json-with-fun.PNG)
 
 ## JSON 的好处
 

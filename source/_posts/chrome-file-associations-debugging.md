@@ -16,7 +16,7 @@ Chrome 浏览器和 FireFox 浏览器一直是前端工程师热爱的两款浏�
 
 文件结构。
 
-![文件结构](http://acwongblog.qiniudn.com/2015-05_hello-folder-structure.PNG)
+![文件结构](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_hello-folder-structure.PNG)
 
 ```html
 <!-- hello.html -->
@@ -42,7 +42,7 @@ h1 {
 
 以往的调试方式，我们会在 Chrome 调试相应的 CSS 样式，然后再回到 CSS 文件当中修改相应的语句，然后返回到浏览器查看效果。这种调试方法的缺点在于，我们需要不断切换浏览器和编辑器的界面去修改代码。
 
-[![旧的调试方式](http://acwongblog.qiniudn.com/2015-05_old-debugging.gif)](http://acwongblog.qiniudn.com/2015-05_old-debugging.gif)
+[![旧的调试方式](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_old-debugging.gif)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_old-debugging.gif)
 
 ## 文件关联调试方式
 
@@ -52,15 +52,15 @@ h1 {
 
 首先在需要调试的页面打开调试控制台，然后点击 *Sources* 的 tab，右键点击添加开发项目的目录。
 
-[![添加相关目录](http://acwongblog.qiniudn.com/2015-05_add-folder.gif)](http://acwongblog.qiniudn.com/2015-05_add-folder.gif)
+[![添加相关目录](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_add-folder.gif)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_add-folder.gif)
 
 然后把相应的文件建立关联，这个时候浏览器会请求重启。
 
-[![添加文件关联](http://acwongblog.qiniudn.com/2015-05_map-network.gif)](http://acwongblog.qiniudn.com/2015-05_map-network.gif)
+[![添加文件关联](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_map-network.gif)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_map-network.gif)
 
 好了，这个时候，浏览器会根据我们关联的文件，自动把相关的其他文件也作一个关联（如本例当中的 hello.css）。当在调试界面修改语句并且保存(Ctrl + s)的时候，chrom 会同步更新本地的文件。
 
-[![更新样式](http://acwongblog.qiniudn.com/2015-05_update-css.gif)](http://acwongblog.qiniudn.com/2015-05_update-css.gif)
+[![更新样式](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_update-css.gif)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-05_update-css.gif)
 
 ### 删除关联
 

@@ -17,7 +17,7 @@ description: 利用 Backbone 库在前端模仿命令行系统。
 ### 文件结构
 
 
-![文件结构](http://acwongblog.qiniudn.com/2015-04_commandline-files-structure.PNG)
+![文件结构](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-04_commandline-files-structure.PNG)
 
 文件结构非常简单，*index.html* 是应用的页面，*main.css* 样式文件，*test.js* 是测试的数据，js文件夹中存放了应用的 JavaScript 代码。
 
@@ -38,7 +38,7 @@ description: 利用 Backbone 库在前端模仿命令行系统。
 
 *main.css* 文件就不多说了，就是把页面做到很像命令行的样子。
 
-![命令行的样子](http://acwongblog.qiniudn.com/2015-04_command-line-view.PNG)
+![命令行的样子](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-04_command-line-view.PNG)
 
 ## JavaScript 部分
 
@@ -285,7 +285,7 @@ $(function(){
 });
 ```
 
-![demo截图](http://acwongblog.qiniudn.com/2015-04_command-line-demo-view.PNG)
+![demo截图](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-04_command-line-demo-view.PNG)
 
 ## 最后
 

@@ -99,7 +99,7 @@ addEventListener方法用来为一个特定的元素绑定一个事件处理函�
 
 IE浏览器对addEventListener兼容性并不算太好，只有IE9以上可以使用。
 
-[![addEventListener](http://acwongblog.qiniudn.com/acwongblogaddEventListener.PNG)](http://acwongblog.qiniudn.com/acwongblogaddEventListener.PNG)
+[![addEventListener](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/acwongblogaddEventListener.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/acwongblogaddEventListener.PNG)
 
 要兼容旧版本的IE浏览器，可以使用IE的attachEvent函数
 

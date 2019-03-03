@@ -97,7 +97,7 @@ dataTransfer 接口还有两个有趣的属性。
 
 与其他的 HTML5 特性不同，Drag and Drop 的[浏览器兼容性](http://fmbip.com/litmus#html5-web-applications)可以说鹤立鸡群。
 
-[![addEventListener](http://acwongblog.qiniudn.com/dnd-compatibility.PNG)](http://acwongblog.qiniudn.com/dnd-compatibility.PNG)
+[![addEventListener](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/dnd-compatibility.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/dnd-compatibility.PNG)
 
 拖放功能最早在IE4时候就被引入，而在目前的拖放模型则是基于IE5.5的模型建立的。由于这个原因导致了原生拖放当中出现了各种不同的坑。
 
@@ -171,7 +171,7 @@ function moveImg(dir) {
 
 完成demo之后发现，浏览器对图片有默认的拖动效果。
 
-[![图片默认拖动效果](http://acwongblog.qiniudn.com/drag360.PNG)](http://acwongblog.qiniudn.com/drag360.PNG)
+[![图片默认拖动效果](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/drag360.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/drag360.PNG)
 
 要去掉这个效果可以在 dragstart 或 mousedown 事件中调用 event.preventDefault() 方法。但是无论使用上述哪一种方法都会导致 drag 事件失效。找了很多资料也没有找到很好的解决方法。所以最后我还是老老实实地用了 mouse 事件的方法重写了一遍。
 

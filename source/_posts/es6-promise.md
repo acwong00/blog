@@ -171,7 +171,7 @@ Promise.all([p1, p2]).then(function (result) {
 
 最后是关于 Promise 对象的兼容性问题。
 
-[![Promise 兼容性](http://7q5etm.com1.z0.glb.clouddn.com/2015-06_promise-can-i-use.PNG)](http://7q5etm.com1.z0.glb.clouddn.com/2015-06_promise-can-i-use.PNG)
+[![Promise 兼容性](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-06_promise-can-i-use.PNG)](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-06_promise-can-i-use.PNG)
 
 在浏览器端，一些主流的浏览器都已经可以使用 Promise 对象进行开发，在 Node.js 配合 babel 也可以很方便地使用。
 

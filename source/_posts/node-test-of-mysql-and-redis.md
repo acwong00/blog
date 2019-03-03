@@ -52,7 +52,7 @@ node code
 
 结果
 
-![Node.js 生成 UUID](http://acwongblog.qiniudn.com/2015-03_node-uuid.PNG)
+![Node.js 生成 UUID](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_node-uuid.PNG)
 
 ## 题目0002
 
@@ -133,7 +133,7 @@ node code_insert_mysql
 SELECT * FROM code;
 ```
 
-![node-mysql](http://acwongblog.qiniudn.com/2015-03_node-mysql.PNG)
+![node-mysql](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_node-mysql.PNG)
 
 
 ## 题目0003
@@ -181,6 +181,6 @@ node code_insert_redis
 lrange codes 0 -1
 ```
 
-![node-redis](http://acwongblog.qiniudn.com/2015-03_node-redis.PNG)
+![node-redis](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2015-03_node-redis.PNG)
 
 感谢您的阅读，有不足之处请为我指出。

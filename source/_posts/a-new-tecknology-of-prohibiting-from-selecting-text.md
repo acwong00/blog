@@ -20,7 +20,7 @@ categories: 技术研究
 
 来看看 `user-select` 的在桌面端的兼容性：
 
-![](http://acwongblog.qiniudn.com/2016-08_user-select-compatibility.png)
+![](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-08_user-select-compatibility.png)
 
 目前依然有大部分桌面端网页需要兼容 IE8 以上的浏览器，因此使用 `user-select` 并不是一个最完美的解决方案。
 
@@ -64,7 +64,7 @@ CSS 的 `attr` 是一个强大的方法，可以直接获取元素属性的值�
 
 但应用于伪类、伪元素（IE8 只支持伪类） `content` 属性返回 `string` 类型的用法是被大部分浏览器支持。
 
-![](http://acwongblog.qiniudn.com/2016-08_css-attr-compatibility.png)
+![](https://acwong-blog.oss-cn-shenzhen.aliyuncs.com/2016-08_css-attr-compatibility.png)
 
 ### 不足
 

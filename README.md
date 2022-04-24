@@ -1,6 +1,6 @@
 # blog
 
-The sources of my [blog](http://blog.acwong.org/).
+My blog.
 
 ## License
 

@@ -1,6 +1,6 @@
 # blog
 
-My blog.
+My [blog](https://github.com/acwong00/blog/issues).
 
 ## License
 
